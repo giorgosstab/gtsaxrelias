@@ -125,7 +125,7 @@ $(function() {
 	
 
 	//MapBox Config
-	mapboxgl.accessToken = 'pk.eyJ1IjoibWVoZGkxMTEyMjIiLCJhIjoiY2pyY2R3eTM5MWJoMzN5cDg2d2FxcnUyYSJ9.a3eNnrTsEsq-o8iDIxiWNg';
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZ2lvcmdvc3N0YWIiLCJhIjoiY2swbm9tcnFqMDAzZjNibjYxa3V4M2E3byJ9.5dJ0x2qWy0TsKvd2zu7Z9g';
 	if (!mapboxgl.supported()) {
 		alert('Your browser does not support Mapbox GL');
 	}else{

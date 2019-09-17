@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Header from "./Header";
-import Loader from "./Loader";
-import MainHeader from "./MainHeader";
-import Services from "./Services";
+import Navbar from "../../components/Navbar";
+import Loader from "../../components/Loader";
+import MainHeader from "./components/MainHeader";
+import Services from "./components/Services";
 
 export default class Index extends Component {
     render() {
         return (
             <div>
                 <Loader/>
-                <Header/>
+                <Navbar/>
                 <MainHeader/>
                 <Services/>
             </div>
