@@ -51,4 +51,4 @@ const Navbar = () => (
     </nav>
 );
 
-export default Navbarl
+export default Navbar
