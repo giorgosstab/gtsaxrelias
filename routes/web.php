@@ -16,4 +16,9 @@
 //});
 
 //Route::view('/{path?}', 'app');
-Route::view('/', 'app');
+// Route::view('/', 'app');
+// Route::view('/auth/signin', 'app');
+
+Route::get('/', function () {
+    return view('app');
+});

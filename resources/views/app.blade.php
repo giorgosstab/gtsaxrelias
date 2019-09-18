@@ -25,12 +25,12 @@
     <link rel="icon" href="{{ asset('img/favicon.ico') }}" type="image/x-icon"/>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-<div id="app"></div>
+<div id="root"></div>
 
-<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ mix('js/app.js') }}"></script>
 <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
 
 <!-- Custom Script -->
