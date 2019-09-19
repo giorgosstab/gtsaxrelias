@@ -30,7 +30,7 @@
 
                         <!-- Blog Image -->
                         <div class="image">
-                            <a href="blog-post.html"><img src="img/gallery/seo.jpg" alt="Seo" /></a>
+                        <a href="blog-post.html"><img src="{{asset('assets/img/gallery/seo.jpg')}}" alt="Seo" /></a>
                         </div>
 
                         <!-- Blog Title And Time -->
@@ -41,7 +41,7 @@
 
                         <!-- Blog Image -->
                         <div class="image">
-                            <a href="blog-post.html"><img src="img/gallery/web-design.jpg" alt="Seo" /></a>
+                            <a href="blog-post.html"><img src="{{asset('assets/img/gallery/web-design.jpg')}}" alt="Seo" /></a>
                         </div>
 
                         <!-- Blog Title And Time -->

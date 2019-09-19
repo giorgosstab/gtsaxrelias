@@ -29,7 +29,7 @@
                     <div class="image">
 
                         <!-- Header Image -->
-                        <img class="img-fluid" src="img/svg/header.svg" alt="header" />
+                        <img class="img-fluid" src="{{asset('assets/img/svg/header.svg')}}" alt="header" />
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
 
                         <!-- Service Image -->
                         <div class="icon">
-                            <img src="img/svg/advertising.svg" alt="Advertising">
+                            <img src="{{asset('assets/img/svg/advertising.svg')}}" alt="Advertising">
                         </div>
 
                         <!-- Service Title -->
@@ -89,7 +89,7 @@
 
                         <!-- Service Image -->
                         <div class="icon">
-                            <img src="img/svg/web-design.svg" alt="Web Design">
+                            <img src="{{asset('assets/img/svg/web-design.svg')}}" alt="Web Design">
                         </div>
 
                         <!-- Service Title -->
@@ -114,7 +114,7 @@
 
                         <!-- Service Image -->
                         <div class="icon">
-                            <img src="img/svg/responsive.svg" alt="Responsive Design">
+                            <img src="{{asset('assets/img/svg/responsive.svg')}}" alt="Responsive Design">
                         </div>
 
                         <!-- Service Title -->
@@ -147,7 +147,7 @@
                     <div class="image">
 
                         <!-- Partners Image -->
-                        <img class="img-fluid" src="img/source/partners.png" alt="Partners">
+                        <img class="img-fluid" src="{{asset('assets/img/source/partners.png')}}" alt="Partners">
                     </div>
                 </div>
                 <div class="col-12 col-lg-5 m-auto">
@@ -329,7 +329,7 @@
                     <div class="image">
 
                         <!-- Latest Work Image -->
-                        <img class="img-fluid" src="img/source/work.png" alt="Work">
+                    <img class="img-fluid" src="{{asset('assets/img/source/work.png')}}" alt="Work">
                     </div>
                 </div>
             </div>
@@ -347,7 +347,7 @@
                     <div class="image">
 
                         <!-- Our Team Image -->
-                        <img class="img-fluid" src="img/source/team.png" alt="Team">
+                        <img class="img-fluid" src="{{asset('assets/img/source/team.png')}}" alt="Team">
                     </div>
                 </div>
                 <div class="col-12 col-lg-5 m-auto">
@@ -429,7 +429,7 @@
                                 <div class="item">
 
                                     <!-- Item Image -->
-                                    <img class="img-fluid" src="img/gallery/seo.jpg" alt="Seo" />
+                                    <img class="img-fluid" src="{{asset('assets/img/gallery/seo.jpg')}}" alt="Seo" />
                                     <div class="data">
 
                                         <!-- Item Title -->
@@ -446,7 +446,7 @@
                                 <div class="item">
 
                                     <!-- Item Image -->
-                                    <img class="img-fluid" src="img/gallery/web-design.jpg" alt="Web Design" />
+                                    <img class="img-fluid" src="{{asset('assets/img/gallery/web-design.jpg')}}" alt="Web Design" />
                                     <div class="data">
 
                                         <!-- Item Title -->
@@ -463,7 +463,7 @@
 							<div class="item">
 
 								<!-- Item Image -->
-								<img class="img-fluid" src="img/gallery/marketing.jpg" alt="Marketing" />
+								<img class="img-fluid" src="{{asset('assets/img/gallery/marketing.jpg')}}" alt="Marketing" />
 								<div class="data">
 
 									<!-- Item Title -->
@@ -480,7 +480,7 @@
 							<div class="item">
 
 								<!-- Item Image -->
-								<img class="img-fluid" src="img/gallery/cooperation.jpg" alt="Cooperation" />
+								<img class="img-fluid" src="{{asset('assets/img/gallery/cooperation.jpg')}} alt="Cooperation" />
 								<div class="data">
 
 									<!-- Item Title -->
@@ -497,7 +497,7 @@
 							<div class="item">
 
 								<!-- Item Image -->
-								<img class="img-fluid" src="img/gallery/travel.jpg" alt="Cooperation" />
+								<img class="img-fluid" src="{{asset('assets/img/gallery/travel.jpg')}}" alt="Cooperation" />
 								<div class="data">
 
 									<!-- Item Title -->
@@ -517,129 +517,6 @@
 		</div>
 	</section>
 	<!-- End Solution Section -->
-
-
-	<!-- Start Plan Section -->
-	<section class="plan">
-		<div class="container">
-
-			<!-- Section Header -->
-			<div class="section-header text-center">
-
-				<!-- Section Header Title -->
-				<p class="section-title">
-					Our Packages
-				</p>
-
-				<!-- Section Header Text -->
-				<h4 class="section-text">
-					Choose a Package Tailored To<br /><span>Your Needs</span>
-				</h4>
-
-				<!-- Section Header Description -->
-				<p class="section-description">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-				</p>
-			</div>
-
-			<div class="row">
-				<div class="col-12 col-md-4">
-					<div class="price-item">
-
-						<!-- Package Image -->
-						<div class="icon">
-							<img src="img/svg/subway.svg" alt="Free" />
-						</div>
-
-						<!-- Package Price -->
-						<p class="price"><sup>$</sup>25</p>
-
-						<!-- Package Time Limit -->
-						<p class="limit">per month</p>
-
-						<!-- Package Type -->
-						<p class="type">Free</p>
-
-						<!-- Package Features -->
-						<ul class="feature">
-							<li>Limited Times Marketing</li>
-							<li>500 Analytics Campaigns</li>
-							<li class="del">250,000 Crawled Page</li>
-							<li class="del">Unlimited Updates</li>
-							<li class="del">Free Web Design</li>
-						</ul>
-
-						<!-- Package Get Started Button -->
-						<a class="btn-one button" href="#pricing">Get Started</a>
-					</div>
-				</div>
-
-				<div class="col-12 col-md-4">
-					<div class="price-item basic">
-
-						<!-- Package Image -->
-						<div class="icon">
-							<img src="img/svg/car.svg" alt="Basic" />
-						</div>
-
-						<!-- Package Price -->
-						<p class="price"><sup>$</sup>99</p>
-
-						<!-- Package Time Limit -->
-						<p class="limit">per month</p>
-
-						<!-- Package Type -->
-						<p class="type">Basic</p>
-
-						<!-- Package Features -->
-						<ul class="feature">
-							<li>Limited Times Marketing</li>
-							<li>500 Analytics Campaigns</li>
-							<li>250,000 Crawled Page</li>
-							<li class="del">Unlimited Updates</li>
-							<li class="del">Free Web Design</li>
-						</ul>
-
-						<!-- Package Get Started Button -->
-						<a class="btn-one button" href="#pricing">Get Started</a>
-					</div>
-				</div>
-
-				<div class="col-12 col-md-4">
-					<div class="price-item">
-
-						<!-- Package Image -->
-						<div class="icon">
-							<img src="img/svg/ship.svg" alt="Pro" />
-						</div>
-
-						<!-- Package Price -->
-						<p class="price"><sup>$</sup>125</p>
-
-						<!-- Package Time Limit -->
-						<p class="limit">per month</p>
-
-						<!-- Package Type -->
-						<p class="type">Pro</p>
-
-						<!-- Package Features -->
-						<ul class="feature">
-							<li>Limited Times Marketing</li>
-							<li>500 Analytics Campaigns</li>
-							<li>250,000 Crawled Page</li>
-							<li>Unlimited Updates</li>
-							<li>Free Web Design</li>
-						</ul>
-
-						<!-- Package Get Started Button -->
-						<a class="btn-one button" href="#pricing">Get Started</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Plan Section -->
-
 
 	<!-- Start Testimonials Section -->
 	<section class="testimonials">
@@ -686,7 +563,7 @@
 								<div class="profile">
 
 									<!-- Item Image Profile -->
-									<img class="img-fluid" src="img/profile/1.jpg" alt="profile" />
+									<img class="img-fluid" src="{{asset('assets/img/profile/1.jpg')}}" alt="profile" />
 
 									<!-- Item Image Profile -->
 									<p class="author">Dolly Rapid</p>
@@ -701,7 +578,7 @@
 								<div class="profile">
 
 									<!-- Item Image Profile -->
-									<img class="img-fluid" src="img/profile/2.jpg" alt="profile" />
+									<img class="img-fluid" src="{{asset('assets/img/profile/2.jpg')}}" alt="profile" />
 
 									<!-- Item Image Profile -->
 									<p class="author">Jaden Row</p>
@@ -716,7 +593,7 @@
 								<div class="profile">
 
 									<!-- Item Image Profile -->
-									<img class="img-fluid" src="img/profile/3.jpg" alt="profile" />
+									<img class="img-fluid" src="{{asset('assets/img/profile/3.jpg')}}" alt="profile" />
 
 									<!-- Item Image Profile -->
 									<p class="author">Smith Forks</p>
@@ -741,31 +618,31 @@
 
                             <!-- Sponsors Items -->
                             <div class="item">
-                                <img class="img-fluid" src="img/sponsors/1.jpg" alt="Sponsors" />
+                                <img class="img-fluid" src="{{asset('assets/img/sponsors/1.jpg')}}" alt="Sponsors" />
                             </div>
 
                             <div class="item">
-                                <img class="img-fluid" src="img/sponsors/2.jpg" alt="Sponsors" />
+                                <img class="img-fluid" src="{{asset('assets/img/sponsors/2.jpg')}}" alt="Sponsors" />
                             </div>
 
                             <div class="item">
-                                <img class="img-fluid" src="img/sponsors/3.jpg" alt="Sponsors" />
+                                <img class="img-fluid" src="{{asset('assets/img/sponsors/3.jpg')}}" alt="Sponsors" />
                             </div>
 
                             <div class="item">
-                                <img class="img-fluid" src="img/sponsors/4.jpg" alt="Sponsors" />
+                                <img class="img-fluid" src="{{asset('assets/img/sponsors/4.jpg')}}" alt="Sponsors" />
                             </div>
 
                             <div class="item">
-                                <img class="img-fluid" src="img/sponsors/5.jpg" alt="Sponsors" />
+                                <img class="img-fluid" src="{{asset('assets/img/sponsors/5.jpg')}}" alt="Sponsors" />
                             </div>
 
                             <div class="item">
-                                <img class="img-fluid" src="img/sponsors/6.jpg" alt="Sponsors" />
+                                <img class="img-fluid" src="{{asset('assets/img/sponsors/6.jpg')}}" alt="Sponsors" />
                             </div>
 
                             <div class="item">
-                                <img class="img-fluid" src="img/sponsors/7.jpg" alt="Sponsors" />
+                                <img class="img-fluid" src="{{asset('assets/img/sponsors/7.jpg')}}" alt="Sponsors" />
                             </div>
 
                         </div>

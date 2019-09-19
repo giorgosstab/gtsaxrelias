@@ -4,7 +4,7 @@
 
         <!-- Navbar Logo -->
         <a class="navbar-brand" href="index.html">
-            <img src="img/logo-light.png" alt="Revex">
+            <img src="{{asset('assets/img/logo-light.png')}}" alt="Revex">
         </a>
 
         <!-- Toggler/collapsibe Button -->
