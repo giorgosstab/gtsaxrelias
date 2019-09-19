@@ -58,8 +58,13 @@
                     </li>
                 @else
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">{{ Auth::user()->name }}</a>
+                        <a class="nav-link" href="#">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-1.jpg" class="rounded-circle z-depth-0" alt="avatar image" height="25">
+                            {{ Auth::user()->name }}
+                        </a>
                         <ul>
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Admin</a></li>
                             <li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Logout') }}</a></li>
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf
