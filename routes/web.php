@@ -11,14 +11,4 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-
-//Route::view('/{path?}', 'app');
-// Route::view('/', 'app');
-// Route::view('/auth/signin', 'app');
-
-Route::get('/', function () {
-    return view('app');
-});
+Route::get('/','HomeController@index')->name('portfolio.home.index');
