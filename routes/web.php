@@ -12,3 +12,5 @@
 */
 
 Route::get('/','HomeController@index')->name('portfolio.home.index');
+
+Auth::routes();
