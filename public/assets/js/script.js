@@ -1,9 +1,9 @@
 $(function() {
 
     "use strict";
-	
+
     var wind = $(window);
-	
+
 	// Navbar Scrolling background
     wind.on("scroll",function () {
         var bodyScroll = wind.scrollTop(),
@@ -22,12 +22,12 @@ $(function() {
             logo = $(".navbar-dark .navbar-brand > img");
 
         if(bodyScroll > 0){
-            logo.attr('src', 'img/logo-light.png');
+            logo.attr('src', 'assets/img/logo-light.png');
         }else{
-        	logo.attr('src', 'img/logo-dark.png');
+        	logo.attr('src', 'assets/img/logo-dark.png');
         }
     });
-	
+
 	//Solution Carousel
 	var solution = $('.solution .owl-carousel');
 	solution.owlCarousel({
@@ -53,11 +53,11 @@ $(function() {
 	//Solution Carousel Next/Prev Custom Button
 	$('.solution .navigation.next').on('click', function () {
 		solution.trigger('next.owl.carousel');
-	});	 
+	});
 	$('.solution .navigation.prev').on('click', function () {
 		solution.trigger('prev.owl.carousel');
 	});
-	
+
 	//Testimonials Carousel Next/Prev Button
 	var testimonials = $('.testimonials .owl-carousel');
 	testimonials.owlCarousel({
@@ -83,11 +83,11 @@ $(function() {
 	//Testimonials Carousel Next/Prev Custom Button
 	$('.testimonials .navigation.next').on('click', function () {
 		testimonials.trigger('next.owl.carousel');
-	});	 
+	});
 	$('.testimonials .navigation.prev').on('click', function () {
 		testimonials.trigger('prev.owl.carousel');
 	});
-	
+
 	//Sponsors Carousel
 	var sponsors = $('.sponsors .owl-carousel');
 	sponsors.owlCarousel({
@@ -122,7 +122,7 @@ $(function() {
 			$(this).next('ul').slideToggle();
 		}
 	});
-	
+
 
 	//MapBox Config
 	mapboxgl.accessToken = 'pk.eyJ1IjoibWVoZGkxMTEyMjIiLCJhIjoiY2pyY2R3eTM5MWJoMzN5cDg2d2FxcnUyYSJ9.a3eNnrTsEsq-o8iDIxiWNg';
@@ -150,15 +150,15 @@ $(window).on("load",function (){
 
 //Odometer on Scroll
 $(window).on("resize scroll",function (){
-	$('.odometer').each(function() {			
+	$('.odometer').each(function() {
 		var elementTop = $(this).offset().top;
 		var elementBottom = elementTop + $(this).outerHeight();
 		var viewportTop = $(window).scrollTop();
 		var viewportBottom = viewportTop + $(window).height();
-		
+
 		if(elementBottom > viewportTop && elementTop < viewportBottom){
 			$(this).html($(this).attr("data-value"));
 		}
-		
+
 	});
 });
