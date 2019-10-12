@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use function compact;
 
 class HomeController extends Controller
 {
@@ -13,6 +15,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('portfolio.home.main');
+        $user = Auth::user();
+        return view('portfolio.home.main')->with([
+            'user' => $user,
+        ]);
     }
 }
