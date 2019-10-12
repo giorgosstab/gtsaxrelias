@@ -14,3 +14,8 @@
 Route::get('/','HomeController@index')->name('portfolio.home.index');
 
 Auth::routes();
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
