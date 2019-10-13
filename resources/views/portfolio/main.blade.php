@@ -26,14 +26,18 @@
         <!-- Custom CSS Styles -->
         {{Html::style('assets/css/style.css')}}
 
+        <!-- Topbar loader JS -->
+        {{Html::script('assets/js/prettify.min.js')}}
+        {{Html::script('assets/js/topbar.min.js')}}
+        {{Html::script('assets/js/loader.js')}}
+
         <!--extra style-->
         @yield('extra-css')
 
         <!-- Favicon -->
         <link rel="icon" href="{{ asset('img/favicon.ico') }}" type="image/x-icon"/>
     </head>
-    <body class="top-body">
-        <div id="preloader"></div>
+    <body class="top-body" id="main_content">
         <!--nav-->
         @include('portfolio.layouts.navbar')
 
