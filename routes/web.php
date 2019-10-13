@@ -12,6 +12,7 @@
 */
 
 Route::get('/','HomeController@index')->name('portfolio.home.index');
+Route::get('/services','ServicesController@index')->name('portfolio.services.index');
 
 Auth::routes();
 
