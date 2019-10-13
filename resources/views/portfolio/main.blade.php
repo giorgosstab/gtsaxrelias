@@ -24,7 +24,6 @@
         {{Html::style('assets/css/font-awesome.css')}}
 
         <!-- Custom CSS Styles -->
-        <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}" />
         {{Html::style('assets/css/style.css')}}
 
         <!--extra style-->

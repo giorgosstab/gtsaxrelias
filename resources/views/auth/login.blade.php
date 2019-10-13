@@ -1,6 +1,6 @@
-@extends('portfolio.main-dark')
+@extends('portfolio.main')
 
-@section('title', 'Home')
+@section('title', 'Sign In')
 
 @section('extra-css')
 
