@@ -42,6 +42,9 @@
         <!--footer-->
         @include('portfolio.layouts.footer')
 
+        <!-- Bootstrap -->
+        {{ Html::script('assets/js/bootstrap.min.js') }}
+
         <!-- Owl Carousel -->
         {{ Html::script('assets/js/owl.carousel.min.js') }}
 
