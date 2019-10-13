@@ -27,7 +27,7 @@
         {{Html::style('assets/css/style.css')}}
 
         <!--extra style-->
-        @yield('extra-style')
+        @yield('extra-css')
 
         <!-- Favicon -->
         <link rel="icon" href="{{ asset('img/favicon.ico') }}" type="image/x-icon"/>
