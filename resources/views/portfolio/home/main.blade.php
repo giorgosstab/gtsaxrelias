@@ -69,7 +69,7 @@
 
                         <!-- Service Title -->
                         <h4 class="title">
-                            <a href="services.html">Advertising and<br>Marketing</a>
+                            <a href="{{ route('portfolio.services.index') }}">Advertising and<br>Marketing</a>
                         </h4>
 
                         <!-- Service Text -->
@@ -78,7 +78,7 @@
                         </p>
 
                         <!-- Service Button -->
-                        <a href="services.html" class="service-btn fas fa-plus"></a>
+                        <a href="{{ route('portfolio.services.index') }}" class="service-btn fas fa-plus"></a>
 
                     </div>
                 </div>
@@ -94,7 +94,7 @@
 
                         <!-- Service Title -->
                         <h4 class="title">
-                            <a href="services.html">Web Design and<br/>Development</a>
+                            <a href="{{ route('portfolio.services.index') }}">Web Design and<br/>Development</a>
                         </h4>
 
                         <!-- Service Text -->
@@ -103,7 +103,7 @@
                         </p>
 
                         <!-- Service Button -->
-                        <a href="services.html" class="service-btn fas fa-plus"></a>
+                        <a href="{{ route('portfolio.services.index') }}" class="service-btn fas fa-plus"></a>
 
                     </div>
                 </div>
@@ -119,7 +119,7 @@
 
                         <!-- Service Title -->
                         <h4 class="title">
-                            <a href="services.html">Responsive and<br/>Adaptive Design</a>
+                            <a href="{{ route('portfolio.services.index') }}">Responsive and<br/>Adaptive Design</a>
                         </h4>
 
                         <!-- Service Text -->
@@ -128,7 +128,7 @@
                         </p>
 
                         <!-- Service Button -->
-                        <a href="services.html" class="service-btn fas fa-plus"></a>
+                        <a href="{{ route('portfolio.services.index') }}" class="service-btn fas fa-plus"></a>
 
                     </div>
                 </div>
