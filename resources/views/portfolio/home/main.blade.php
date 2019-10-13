@@ -323,7 +323,7 @@
                     </div>
 
                     <!-- Our Works Button -->
-                    <a href="#" class="btn-one">Our Works</a>
+                    <a href="{{ route('portfolio.project.index') }}" class="btn-one">Our Works</a>
                 </div>
                 <div class="col-12 col-lg-7">
                     <div class="image">
@@ -514,7 +514,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+        </div>
 	</section>
 	<!-- End Solution Section -->
 
@@ -611,5 +611,9 @@
     <!-- Start Sponsors Section -->
     @include('portfolio.partials.sponsors.main')
     <!-- End Sponsors Section -->
+
+@endsection
+
+@section('extra-script')
 
 @endsection
