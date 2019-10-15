@@ -42,7 +42,7 @@ If you discover a security vulnerability within Social Network App!, please crea
 
 ## Authors
 
- - George Tsachrelias [@giorgosstab](https://twitter.com/dbader_org) – g.tsaxrelias@hotmail.com
+ - George Tsachrelias [@giorgosstab](https://twitter.com/giorgosstab) – g.tsaxrelias@hotmail.com
  - *Initial work* - (https://github.com/giorgosstab/)
  
 Distributed under the XYZ license. See ``LICENSE`` for more information.
