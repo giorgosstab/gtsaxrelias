@@ -47,7 +47,7 @@ If you discover a security vulnerability within Social Network App!, please crea
  
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
-[https://github.com/giorgosstab/philoshophy](https://github.com/giorgosstab/)
+[https://github.com/giorgosstab/gtsaxrelias](https://github.com/giorgosstab/)
 
 ## Contributing
 
