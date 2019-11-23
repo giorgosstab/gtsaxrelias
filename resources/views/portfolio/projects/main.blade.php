@@ -3,16 +3,22 @@
 @section('title', 'About Us')
 
 @section('extra-css')
-
+    <style>
+        @media screen and (min-width: 576px) {
+            .button-text {
+                display: none;
+            }
+        }
+    </style>
 @endsection
 
 @section('content')
     <!-- Start Contact Us Page Section -->
-    <section class="solution">
+    <section class="solution blog-list">
         <div class="container">
 
             <!-- Section Header -->
-            <div class="section-header text-left mb-5 mt-100">
+            <div class="section-header text-center mb-5 mt-100">
 
                 <!-- Section Header Title -->
                 <p class="section-title">
@@ -25,15 +31,13 @@
                 </h4>
             </div>
             <div class="row mt-5 mb-5">
-                <div class="col-12 col-sm-4 col-md-3 col-lg-2 m-auto">
+                <div class="col-12 col-sm-2 col-md-1 col-lg-1 mt-2">
                     <div class="button">
-
                         <!-- Navigation Button -->
-                        <div class="navigation btn-one prev"><i class="fas fa-angle-left"></i></div>
-                        <div class="navigation btn-one next"><i class="fas fa-angle-right"></i></div>
+                        <div class="navigation btn-one prev"><i class="fas fa-angle-left"></i> <span class="button-text">Previous</span></div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-8 col-sm-9 col-lg-10">
+                <div class="col-12 col-sm-8 col-md-10 col-lg-10">
                     <div class="content">
                         <div class="owl-carousel owl-theme">
 
@@ -125,6 +129,20 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-sm-2 col-md-1 col-lg-1 mt-2">
+                    <div class="button">
+                        <!-- Navigation Button -->
+                        <div class="navigation btn-one next"><span class="button-text">Next</span> <i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 mb-5 justify-content-md-center">
+                <ul class="pagination">
+                    <li><a class="active" href="#">01</a></li>
+                    <li><a href="#">02</a></li>
+                    <li><a href="#">03</a></li>
+                    <li><a href="#"><i class="fas fa-angle-double-right"></i></a></li>
+                </ul>
             </div>
         </div>
     </section>
