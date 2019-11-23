@@ -3,7 +3,13 @@
 @section('title', 'Home')
 
 @section('extra-css')
-
+    <style>
+        @media screen and (min-width: 576px) {
+            .button-text {
+                display: none;
+            }
+        }
+    </style>
 @endsection
 
 @section('content')
@@ -249,95 +255,6 @@
     </section>
     <!-- End Partners Section -->
 
-
-    <!-- Start Work Section -->
-    <section class="work">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-5 m-auto">
-
-                    <!-- Section Header -->
-                    <div class="section-header text-left">
-
-                        <!-- Section Header Title -->
-                        <p class="section-title">
-                            Our Latest Work
-                        </p>
-
-                        <!-- Section Header Text -->
-                        <h4 class="section-text">
-                            One Of Our<br /><span>Latest Work</span>
-                        </h4>
-
-                        <!-- Section Header Description -->
-                        <p class="section-description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
-                        </p>
-                    </div>
-
-                    <!-- Skills -->
-                    <div class="skills">
-
-                        <!-- Skill Item -->
-                        <div class="item">
-
-                            <!-- Skill Title -->
-                            <div class="title clearfix">
-                                <p>Bootstrap<span>75%</span></p>
-                            </div>
-
-                            <!-- Skill Bar -->
-                            <div class="progress-bar">
-                                <div class="line" style="width: 75%;"></div>
-                            </div>
-                        </div>
-
-                        <!-- Skill Item -->
-                        <div class="item">
-
-                            <!-- Skill Title -->
-                            <div class="title clearfix">
-                                <p>Html<span>80%</span></p>
-                            </div>
-
-                            <!-- Skill Bar -->
-                            <div class="progress-bar">
-                                <div class="line" style="width: 80%;"></div>
-                            </div>
-                        </div>
-
-                        <!-- Skill Item -->
-                        <div class="item">
-
-                            <!-- Skill Title -->
-                            <div class="title clearfix">
-                                <p>Php<span>55%</span></p>
-                            </div>
-
-                            <!-- Skill Bar -->
-                            <div class="progress-bar">
-                                <div class="line" style="width: 55%;"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Our Works Button -->
-                    <a href="{{ route('portfolio.project.index') }}" class="btn-one">Our Works</a>
-                </div>
-                <div class="col-12 col-lg-7">
-                    <div class="image">
-
-                        <!-- Latest Work Image -->
-                    <img class="img-fluid" src="{{asset('assets/img/source/work.png')}}" alt="Work">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Work Section -->
-
-
     <!-- Start Team Section -->
     <section class="team">
         <div class="container">
@@ -389,134 +306,137 @@
     </section>
     <!-- End Team Section -->
 
+    <!-- Start work Section -->
+    <section class="solution">
+        <div class="container">
 
-        <!-- Start Solution Section -->
-        <section class="solution">
-            <div class="container">
+            <!-- Section Header -->
+            <div class="section-header text-left mb-3">
 
-                <!-- Section Header -->
-                <div class="section-header text-left mb-3">
+                <!-- Section Header Title -->
+                <p class="section-title">
+                    Our Latest Work
+                </p>
 
-                    <!-- Section Header Title -->
-                    <p class="section-title">
-                        Business Solution
-                    </p>
+                <!-- Section Header Text -->
+                <h4 class="section-text">
+                    One Of Our<br /><span>Latest Work</span>
+                </h4>
 
-                    <!-- Section Header Text -->
-                    <h4 class="section-text">
-                        Explore Our Course For Your<br /><span>Business Solution</span>
-                    </h4>
-
-                    <!-- Section Header Description -->
-                    <p class="section-description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
+                <!-- Section Header Description -->
+                <p class="section-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-sm-2 col-md-1 col-lg-1 mt-2">
+                    <div class="button">
+                        <!-- Navigation Button -->
+                        <div class="navigation btn-one prev"><i class="fas fa-angle-left"></i> <span class="button-text">Previous</span></div>
+                    </div>
                 </div>
-                <div class="row mt-5">
-                    <div class="col-12 col-sm-4 col-md-3 col-lg-2 m-auto">
-                        <div class="button">
+                <div class="col-12 col-sm-8 col-sm-9 col-lg-10">
+                    <div class="content">
+                        <div class="owl-carousel owl-theme">
 
-                            <!-- Navigation Button -->
-                            <div class="navigation btn-one prev"><i class="fas fa-angle-left"></i></div>
-                            <div class="navigation btn-one next"><i class="fas fa-angle-right"></i></div>
+                            <!-- Solution Items -->
+                            <div class="item">
+
+                                <!-- Item Image -->
+                                <img class="img-fluid" src="{{asset('assets/img/gallery/seo.jpg')}}" alt="Seo" />
+                                <div class="data">
+
+                                    <!-- Item Title -->
+                                    <a class="title" href="blog-post.html">Search Engine And Optimizing:<br />Smart Optimizing</a>
+
+                                    <!-- Item Author -->
+                                    <p class="author">Dolly Rapid</p>
+
+                                    <!-- Item View -->
+                                    <p class="view"><span>12,870</span><i class="fas fa-eye"></i></p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+
+                                <!-- Item Image -->
+                                <img class="img-fluid" src="{{asset('assets/img/gallery/web-design.jpg')}}" alt="Web Design" />
+                                <div class="data">
+
+                                    <!-- Item Title -->
+                                    <a class="title" href="blog-post.html">Web Design And Development:<br />Build Your Website</a>
+
+                                    <!-- Item Author -->
+                                    <p class="author">Jaden Row</p>
+
+                                    <!-- Item View -->
+                                    <p class="view"><span>9,701</span><i class="fas fa-eye"></i></p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+
+                                <!-- Item Image -->
+                                <img class="img-fluid" src="{{asset('assets/img/gallery/marketing.jpg')}}" alt="Marketing" />
+                                <div class="data">
+
+                                    <!-- Item Title -->
+                                    <a class="title" href="blog-post.html">Advertising And Marketing:<br />Ready To Start</a>
+
+                                    <!-- Item Author -->
+                                    <p class="author">Smith Forks</p>
+
+                                    <!-- Item View -->
+                                    <p class="view"><span>1,894</span><i class="fas fa-eye"></i></p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+
+                                <!-- Item Image -->
+                                <img class="img-fluid" src="{{asset('assets/img/gallery/cooperation.jpg')}}" alt="Cooperation" />
+                                <div class="data">
+
+                                    <!-- Item Title -->
+                                    <a class="title" href="blog-post.html">Cooperation And Competition:<br />Theory And Research</a>
+
+                                    <!-- Item Author -->
+                                    <p class="author">Kutch Ramp</p>
+
+                                    <!-- Item View -->
+                                    <p class="view"><span>5,274</span><i class="fas fa-eye"></i></p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+
+                                <!-- Item Image -->
+                                <img class="img-fluid" src="{{asset('assets/img/gallery/travel.jpg')}}" alt="Cooperation" />
+                                <div class="data">
+
+                                    <!-- Item Title -->
+                                    <a class="title" href="blog-post.html">Around The World With:<br />Knife Fork And Spoon</a>
+
+                                    <!-- Item Author -->
+                                    <p class="author">Larry Viaduct</p>
+
+                                    <!-- Item View -->
+                                    <p class="view"><span>793</span><i class="fas fa-eye"></i></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-8 col-sm-9 col-lg-10">
-                        <div class="content">
-                            <div class="owl-carousel owl-theme">
-
-                                <!-- Solution Items -->
-                                <div class="item">
-
-                                    <!-- Item Image -->
-                                    <img class="img-fluid" src="{{asset('assets/img/gallery/seo.jpg')}}" alt="Seo" />
-                                    <div class="data">
-
-                                        <!-- Item Title -->
-                                        <a class="title" href="blog-post.html">Search Engine And Optimizing:<br />Smart Optimizing</a>
-
-                                        <!-- Item Author -->
-                                        <p class="author">Dolly Rapid</p>
-
-                                        <!-- Item View -->
-                                        <p class="view"><span>12,870</span><i class="fas fa-eye"></i></p>
-                                    </div>
-                                </div>
-
-                                <div class="item">
-
-                                    <!-- Item Image -->
-                                    <img class="img-fluid" src="{{asset('assets/img/gallery/web-design.jpg')}}" alt="Web Design" />
-                                    <div class="data">
-
-                                        <!-- Item Title -->
-                                        <a class="title" href="blog-post.html">Web Design And Development:<br />Build Your Website</a>
-
-									<!-- Item Author -->
-									<p class="author">Jaden Row</p>
-
-									<!-- Item View -->
-									<p class="view"><span>9,701</span><i class="fas fa-eye"></i></p>
-								</div>
-							</div>
-
-							<div class="item">
-
-								<!-- Item Image -->
-								<img class="img-fluid" src="{{asset('assets/img/gallery/marketing.jpg')}}" alt="Marketing" />
-								<div class="data">
-
-									<!-- Item Title -->
-									<a class="title" href="blog-post.html">Advertising And Marketing:<br />Ready To Start</a>
-
-									<!-- Item Author -->
-									<p class="author">Smith Forks</p>
-
-									<!-- Item View -->
-									<p class="view"><span>1,894</span><i class="fas fa-eye"></i></p>
-								</div>
-							</div>
-
-							<div class="item">
-
-								<!-- Item Image -->
-								<img class="img-fluid" src="{{asset('assets/img/gallery/cooperation.jpg')}}" alt="Cooperation" />
-								<div class="data">
-
-									<!-- Item Title -->
-									<a class="title" href="blog-post.html">Cooperation And Competition:<br />Theory And Research</a>
-
-									<!-- Item Author -->
-									<p class="author">Kutch Ramp</p>
-
-									<!-- Item View -->
-									<p class="view"><span>5,274</span><i class="fas fa-eye"></i></p>
-								</div>
-							</div>
-
-							<div class="item">
-
-								<!-- Item Image -->
-								<img class="img-fluid" src="{{asset('assets/img/gallery/travel.jpg')}}" alt="Cooperation" />
-								<div class="data">
-
-									<!-- Item Title -->
-									<a class="title" href="blog-post.html">Around The World With:<br />Knife Fork And Spoon</a>
-
-									<!-- Item Author -->
-									<p class="author">Larry Viaduct</p>
-
-									<!-- Item View -->
-									<p class="view"><span>793</span><i class="fas fa-eye"></i></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+                </div>
+                <div class="col-12 col-sm-2 col-md-1 col-lg-1 mt-2">
+                    <div class="button">
+                        <!-- Navigation Button -->
+                        <div class="navigation btn-one next"><span class="button-text">Next</span> <i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
         </div>
-	</section>
-	<!-- End Solution Section -->
+    </section>
+    <!-- End work Section -->
 
 	<!-- Start Testimonials Section -->
 	<section class="testimonials">
